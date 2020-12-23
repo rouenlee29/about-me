@@ -7,8 +7,5 @@ tags:
 link: https://www.notion.so/Deep-learning-for-a-cat-I-miss-5a4162ef02e1464992f733d578a61ed6
 ---
 
-This theme supports **link posts**, made famous by John Gruber. To use, just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done.
+Did this project for a cat I was particulary fond of. I have also created a simple interface to my trained model, where you can upload a cat picture to identify its breed. 
 
-> And this is how a quote looks.
-
-Some [link](#) can also be shown.
