@@ -1,11 +1,10 @@
 ---
-title: "Post: Link"
+title: "Cat Breed detector using Deep Learning"
 categories:
-  - Blog
+  - Project
 tags:
-  - link
-  - Post Formats
-link: https://github.com
+  - Deep Learning
+link: https://www.notion.so/Deep-learning-for-a-cat-I-miss-5a4162ef02e1464992f733d578a61ed6
 ---
 
 This theme supports **link posts**, made famous by John Gruber. To use, just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done.
