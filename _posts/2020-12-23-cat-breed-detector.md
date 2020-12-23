@@ -1,5 +1,5 @@
 ---
-title: "Cat Breed detector using Deep Learning"
+title: "Cat Breed Detector Using Deep Learning"
 categories:
   - Project
 tags:
