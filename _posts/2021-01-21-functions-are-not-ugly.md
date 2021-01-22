@@ -55,6 +55,7 @@ Many (but not all) challenges in AI involve mapping tangible objects (like image
 Hang in there - if AI algorithm are mathematical functions, then how do we perform mathematical operations on images and words? On images - the problem is straighforward to solve, as images are nothing more than a collection of pixels. On words - this is slightly trickier, and there is an entire research field dedicated to finding the correct numercial representations for words. 
 
 > TODO elaborate with visual example
+> https://stackoverflow.com/questions/16994797/convert-image-in-to-numbers
 
 Also, the raw outputs of AI algorithms are not word labels like "dog" or "cat". Rather, they are numbers (unsuprising, since they are mathematical functions anyway). The humans have to arbitrarily decide on the numbers that correspond to each label. 
 
@@ -66,12 +67,9 @@ f(numbers representing the pixels of a cat image) = 1
 ```
 Where we have decided `1` = cat. 
 
-The billion dollar question is, how do we find `f`? Surely it is not going to be as simple as `f(x) = x + 2`.
+The billion dollar question is, how do we find `f`? Surely it is not going to be as simple as `f(x) = x + 2`. Also, surely it will take _a lot_ of mathematical computations to transform a collection of numbers to the number `1`! 
 
-
-
-Is it just one huge and complicated function that handles everything? No. When you key in your username to a website, a function might take your input, do some processing to it before passing it to another. Just like when you breathe, oxygen molecules don't go to your lungs right away. The Many intermediate processes occur to transport the molecules to your lungs, such as the binding of oxygen molecules to haemoglobin. 
-
+In a promising AI technique called _Deep Learning_, we'd start by mapping the inputs to another set of numbers. Then we take this new set of numbers are map it to another set of numbers. We'd then repeat this mapping process until we can get a number that represents the desired label. This method has the word _deep_ because there are many "layers" of functions working consecutively to process the inputs. 
 
 
 ### In a relay race
