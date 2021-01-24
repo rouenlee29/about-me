@@ -7,7 +7,7 @@ tags:
   - Mathematics
 ---
 
-> Revisitng and rethinking functions.
+> Revisiting and rethinking functions.
 
 ### How interesting can a function be?
 
@@ -44,7 +44,7 @@ When you see a picture like this:
 
 <figure>
   <img src="{{site.url}}/about-me/assets/images/cat.JPG" alt="cat photo"/>
-  <figcaption>Just a random cat=</figcaption>
+  <figcaption>Just a random cat :)</figcaption>
 </figure>
 
 
@@ -101,4 +101,4 @@ A promising AI technique called _Deep Learning_ mimics the above process. We'd s
 
 ### Before we say goodbye...
 
-To me, it is refreshing to think how mathematical functions elegantly demonstrate the process of mappiong in mathematical notations. I hope you do too.
+To me, it is refreshing to think how mathematical functions elegantly demonstrate the process of mapping in mathematical notations. I hope you do too.
