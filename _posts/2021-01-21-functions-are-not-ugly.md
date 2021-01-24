@@ -19,10 +19,13 @@ The equation above is enough to intimidate and bore many people, and the purpose
 
 The concept is *mapping*. So, what is a mapping? When you think of _maps_, you think of diagram that brings you from one place to another, say, from Berlin to Amsterdam. That's what mapping does - it brings you from one thing to another. 
 
-> TODO elaborate with visual example
+<figure>
+  <img src="{{site.url}}/assets/images/maps.jpg" alt="maps photo"/>
+  <figcaption>Photo by <a href="https://unsplash.com/@tabeadamm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tabea Damm</a> on <a href="https://unsplash.com/s/photos/map?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></figcaption>
+</figure>
+
 
 Similarly, a mathematical function like `f(x) = x + 2` uses addition (`+`) to bring you from one number to another. For example, when you feed the function with `3`, it adds `2` to it and brings you to `5`. In other words, we have mapped `3` to `5`. 
-
 
  Mapping is the invisible processes that happen everywhere and anywhere. The respiration process can be thought of as a mapping of gases to different forms : oxygen in; carbon dioxide and water vapour out. Likewise, when your partner says "Honey, we need to talk", you mentally map it to "Something has gone wrong".
 
@@ -50,17 +53,17 @@ We can also have:
 f("this movie sucks!")  = negative review 
 ```
 
-Many (but not all) challenges in AI involve mapping tangible objects (like images and words) to a label (like "dog" or "cat"). More specifically, many AI algorithms are nothing more than complex mathematical functions that perform these mappings. 
+Many (but not all) challenges in AI involve mapping tangible objects (like images and words) to a label (like "dog" or "cat"). More specifically, many AI algorithms are nothing more than complex mathematical functions that perform mappings. 
 
-If AI algorithm are mathematical functions, then how do we perform mathematical operations on images and words? Images are nothing more than a collection of pixels, hence we could easily map any image to a collection of numbers. But problems involving words are slightly trickier, and there is an entire research field dedicated to finding the most suitable numercial representations for words. 
+If AI algorithms are mathematical functions, then how do we perform mathematical operations on images and words? Images are nothing more than a collection of pixels, hence we could easily map any image to a collection of numbers. But problems involving words are slightly trickier, and there is an entire research field dedicated to finding the most suitable numercial representations for words. 
 
-> TODO elaborate with visual example
-> https://stackoverflow.com/questions/16994797/convert-image-in-to-numbers
+<figure>
+  <img src="{{site.url}}/assets/images/image.png" alt="photo"/>
+  <figcaption>Images are nothing more than a collection of numbers. Photo from <a href="https://stackoverflow.com/questions/16994797/convert-image-in-to-numbers">stack overflow</a> 
+  </figcaption>
+</figure>
 
-Also, the raw outputs of AI algorithms are not word labels like "dog" or "cat". Rather, they are numbers (unsuprising, since they are mathematical functions anyway). Humans have to arbitrarily decide on the numbers that correspond to each label. 
-
-
-For example, an AI algorithm that is able to detect cat pictures will behave like the following function:
+Also, the raw outputs of AI algorithms are not word labels like "dog" or "cat". Rather, they are numbers (unsuprising, since AI algorithms are mathematical functions anyway). Humans have to arbitrarily decide on the numbers that correspond to each label. For example, an AI algorithm that is able to detect cat pictures will behave like the following function:
 
 ```
 f(numbers representing the pixels of a cat image) = 1,
@@ -77,13 +80,14 @@ toaster(bread slice) = toasted bread
 butterKnife(toasted bread + peanut butter) = breakfast
 ```
 
+A promising AI technique called _Deep Learning_ mimics the above process. We'd start by mapping the inputs to another set of numbers. Then we'd take the new set of numbers and map it to another set of numbers. We'd then repeat this mapping process until we get a number that represents the desired label. There are many "layers" of functions working consecutively to process the inputs, hence the word _Deep_. 
 
-A promising AI technique called _Deep Learning_ mimics the above process. We'd start by mapping the inputs to another set of numbers. Then we take this new set of numbers and map it to another set of numbers. We'd then repeat this mapping process until we can get a number that represents the desired label. This method has the word _deep_ because there are many "layers" of functions working consecutively to process the inputs.
-
-> Image of deep learning 
-
-
-
+<figure>
+  <img src="{{site.url}}/assets/images/dnn.png" alt="photo"/>
+  <figcaption>
+  From <a href="http://neuralnetworksanddeeplearning.com/">Neural Networks and Deep Learning</a> by Michael Nielsen
+  </figcaption>
+</figure>
 
 
 ### Before we say goodbye...
