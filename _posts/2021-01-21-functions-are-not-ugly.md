@@ -7,6 +7,8 @@ tags:
   - Mathematics
 ---
 
+> Revisitng and rethinking functions.
+
 ### How interesting can a function be?
 
 In school you might have encountered the dreaded `f(x)` symbol in algebra, for example:
@@ -39,7 +41,11 @@ A function like `f(x) = x + 2` can also be interpreted as a process of giving an
 
 When you see a picture like this:
 
-![Cat](./images/cat.JPG)
+
+<figure>
+  <img src="{{site.url}}/about-me/assets/images/cat.JPG" alt="cat photo"/>
+  <figcaption>Just a random cat=</figcaption>
+</figure>
 
 
 Your brain automatically maps it to the word "cat". See? another mapping process. But wait — functions perform mappings, so can we try to express the act of seeing as a function? We'd have something like:
@@ -59,7 +65,7 @@ Many (but not all) challenges in AI involve mapping tangible objects (like image
 If AI algorithms are mathematical functions, then how do we perform mathematical operations on images and words? Images are nothing more than a collection of pixels, hence we could easily map any image to a collection of numbers. But problems involving words are slightly trickier, and there is an entire research field dedicated to finding the most suitable numercial representations for words. 
 
 <figure>
-  <img src="{{site.url}}/assets/images/image.png" alt="photo"/>
+  <img src="{{site.url}}/about-me/assets/images/image.png" alt="photo"/>
   <figcaption>Images are nothing more than a collection of numbers. Photo from <a href="https://stackoverflow.com/questions/16994797/convert-image-in-to-numbers">stack overflow</a> 
   </figcaption>
 </figure>
@@ -86,7 +92,7 @@ A promising AI technique called _Deep Learning_ mimics the above process. We'd s
 
 
 <figure>
-  <img src="{{site.url}}/assets/images/dnn.png" alt="photo"/>
+  <img src="{{site.url}}/about-me/assets/images/dnn.png" alt="photo"/>
   <figcaption>
   From <a href="http://neuralnetworksanddeeplearning.com/">Neural Networks and Deep Learning</a> by Michael Nielsen
   </figcaption>
