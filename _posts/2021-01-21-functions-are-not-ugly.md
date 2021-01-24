@@ -50,60 +50,42 @@ We can also have:
 f("this movie sucks!")  = negative review 
 ```
 
-Many (but not all) challenges in AI involve mapping tangible objects (like images and words) to a label (like "dog" or "cat"), without the guidance of humans. More specifically, many AI algorithms are nothing more than complex mathematical functions that perform these mappings. 
+Many (but not all) challenges in AI involve mapping tangible objects (like images and words) to a label (like "dog" or "cat"). More specifically, many AI algorithms are nothing more than complex mathematical functions that perform these mappings. 
 
-Hang in there - if AI algorithm are mathematical functions, then how do we perform mathematical operations on images and words? On images - the problem is straighforward to solve, as images are nothing more than a collection of pixels. On words - this is slightly trickier, and there is an entire research field dedicated to finding the correct numercial representations for words. 
+If AI algorithm are mathematical functions, then how do we perform mathematical operations on images and words? Images are nothing more than a collection of pixels, hence we could easily map any image to a collection of numbers. But problems involving words are slightly trickier, and there is an entire research field dedicated to finding the most suitable numercial representations for words. 
 
 > TODO elaborate with visual example
 > https://stackoverflow.com/questions/16994797/convert-image-in-to-numbers
 
-Also, the raw outputs of AI algorithms are not word labels like "dog" or "cat". Rather, they are numbers (unsuprising, since they are mathematical functions anyway). The humans have to arbitrarily decide on the numbers that correspond to each label. 
+Also, the raw outputs of AI algorithms are not word labels like "dog" or "cat". Rather, they are numbers (unsuprising, since they are mathematical functions anyway). Humans have to arbitrarily decide on the numbers that correspond to each label. 
 
 
 For example, an AI algorithm that is able to detect cat pictures will behave like the following function:
 
 ```
-f(numbers representing the pixels of a cat image) = 1
+f(numbers representing the pixels of a cat image) = 1,
 ```
-Where we have decided `1` = cat. 
+where we have decided `1` represents cat. 
 
-The billion dollar question is, how do we find `f`? Surely it is not going to be as simple as `f(x) = x + 2`. Also, surely it will take _a lot_ of mathematical computations to transform a collection of numbers to the number `1`! 
+The billion dollar question is, how do we find `f`? Surely it is not going to be as simple as `f(x) = x + 2`. Also, it will certainly take _a lot_ of mathematical computations to transform a collection of numbers to the number `1`! 
 
-In a promising AI technique called _Deep Learning_, we'd start by mapping the inputs to another set of numbers. Then we take this new set of numbers are map it to another set of numbers. We'd then repeat this mapping process until we can get a number that represents the desired label. This method has the word _deep_ because there are many "layers" of functions working consecutively to process the inputs. 
+To perform complex operations (such as mapping images to labels), we can chain multiple functions together to perform consecutive mappings. You can think of the functions to be in a relay race, where an output of a function serves as an input to another different function. An example is when you make breakfast:
 
-
-### In a relay race
-
-This brings us to our next point — functions can be in a relay race, where an output of a function serves as an input to another functions
-
-Piecing all the functions together 
-
-Helpful to think functions as transformers... perform transformation
-
-```python
+```
 knife(one loaf of bread) = bread slices
 toaster(bread slice) = toasted bread
-
 butterKnife(toasted bread + peanut butter) = breakfast
 ```
 
-### Functions within functions
 
-Functions can be made up of other functions, for example:
+A promising AI technique called _Deep Learning_ mimics the above process. We'd start by mapping the inputs to another set of numbers. Then we take this new set of numbers and map it to another set of numbers. We'd then repeat this mapping process until we can get a number that represents the desired label. This method has the word _deep_ because there are many "layers" of functions working consecutively to process the inputs.
 
-```
-f(x) = a(x) + g(x)
-```
+> Image of deep learning 
 
-A more concrete example is as below:
 
-```python
 
-f(hears "I love you") = a(hears "I love you") + b(hears "I love you") = crazy in love
-where  a(hears "I love you") = face blushes and 
-b(hears "I love you") = heart rate increases 
-```
+
 
 ### Before we say goodbye...
 
-To me, software programs can be thought of as a synchrony of many different components giving and receiving things between each other. The same can be said about many biological processes that occur in living organisms. To me, it is refreshing to think how mathematical functions elegantly demonstrate the process of giving and receiving in mathematical notations. I hope you do too.
+To me, it is refreshing to think how mathematical functions elegantly demonstrate the process of mappiong in mathematical notations. I hope you do too.
