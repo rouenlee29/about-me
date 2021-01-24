@@ -19,6 +19,9 @@ The equation above is enough to intimidate and bore many people, and the purpose
 
 The concept is *mapping*. So, what is a mapping? When you think of _maps_, you think of diagram that brings you from one place to another, say, from Berlin to Amsterdam. That's what mapping does - it brings you from one thing to another. 
 
+
+![useful image]({{ site.url }}/assets/images/dnn.png)
+
 <figure>
   <img src="https://github.com/rouenlee29/about-me/blob/master/assets/images/maps.jpg" alt="maps photo"/>
   <figcaption>Photo by <a href="https://unsplash.com/@tabeadamm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tabea Damm</a> on <a href="https://unsplash.com/s/photos/map?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></figcaption>
@@ -81,6 +84,8 @@ butterKnife(toasted bread + peanut butter) = breakfast
 ```
 
 A promising AI technique called _Deep Learning_ mimics the above process. We'd start by mapping the inputs to another set of numbers. Then we'd take the new set of numbers and map it to another set of numbers. We'd then repeat this mapping process until we get a number that represents the desired label. There are many "layers" of functions working consecutively to process the inputs, hence the word _Deep_. 
+
+
 
 <figure>
   <img src="{{site.url}}/assets/images/dnn.png" alt="photo"/>
