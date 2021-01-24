@@ -17,7 +17,7 @@ In school you might have encountered the dreaded `f(x)` symbol in algebra, for e
 f(x) = x + 2
 ```
 
-The equation above is enough to intimidate and bore many people, and the purpose of this article is to show that there is a beautiful and ridiculously simple concept behind it. We often encounter this concept in our daily lives, but because it is so straightforward and obscure, we fail to notice it. 
+The equation above is enough to intimidate and bore many people, and this article aims to show the beautiful and ridiculously simple concept behind it. We often encounter this concept in our daily lives, but because it is so straightforward and obscure, we fail to notice it. 
 
 The concept is *mapping*. So, what is a mapping? When you think of _maps_, you think of diagram that brings you from one place to another, say, from Berlin to Amsterdam. That's what mapping does - it brings you from one thing to another. 
 
@@ -32,10 +32,9 @@ Similarly, a mathematical function like `f(x) = x + 2` uses addition (`+`) to br
 
  Mapping is the invisible processes that happen everywhere and anywhere. The respiration process can be thought of as a mapping of gases to different forms : oxygen in; carbon dioxide and water vapour out. Likewise, when your partner says "Honey, we need to talk", you mentally map it to "Something has gone wrong".
 
-### Functions are all about giving and receiving.
+### Functions are also about giving and receiving.
 
-A function like `f(x) = x + 2` can also be interpreted as a process of giving and receiving — if the function is given `3`, you will receive `5` in return. The process of giving and receiving, to me, is by itself rather fascinating, because it happens everywhere in the internet. It happens when you casually click the "like" button on Facebook, follow someone on Instagram, or execute a sneak attack in a video game. Underneath the fancy interfaces lie many function-like objects that receive your keystrokes, execute some commands, and returns something that results in a visual change on your screen (and probably in some remote database). 
-
+A function like `f(x) = x + 2` can also be interpreted as a process of giving and receiving — if the function is given `3`, you will receive `5` in return. The process of giving and receiving, to me, is by itself rather fascinating, because it underlies how software programs work. Throughout my working experience building software programs, I came to see beyond the fancy graphics and elaborate user interfaces - that software programs are actually a synchrony of many componenets giving and receiving information from each other. You have already dealt with the giving-receiving process many times today. It happens when you casually click the "like" button on Facebook, follow someone on Instagram, or execute a sneak attack in a video game. Underneath the fancy interfaces lie many function-like objects that receive your keystrokes, execute some commands, and returns something that results in a visual change on your screen (and most probably in some remote database). 
 
 ### Mapping in AI algorithms
 
